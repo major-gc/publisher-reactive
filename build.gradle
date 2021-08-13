@@ -1,0 +1,31 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.toy'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // WebFlux
+    implementation 'org.springframework.boot:spring-boot-starter-webflux:2.2.6.RELEASE'
+    implementation 'io.projectreactor:reactor-test'
+
+    // json
+    implementation group: 'org.json', name: 'json', version: '20210307'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
+
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,9 @@
+data:
+  api:
+    seibro:
+      baseUrl: http://api.seibro.or.kr/openapi/service/StockSvc
+      encodeServiceKey: DCODvbbMEoDkuGn2aNXXjwCH0YJqglUActWjQ3aReQ06nhtpThb%2F9F2%2FwsuSjjY3OYv6Is7ESqDeanajIkRkgQ%3D%3D
+      decodeServiceKey: DCODvbbMEoDkuGn2aNXXjwCH0YJqglUActWjQ3aReQ06nhtpThb/9F2/wsuSjjY3OYv6Is7ESqDeanajIkRkgQ==
+
+
+
